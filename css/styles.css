@@ -103,6 +103,7 @@ body {
 }
 .hero .hero-button:hover {
   color: #404bbf;
+  cursor: pointer;
 }
 .button-text {
   color: var(--bgc-white-color);
@@ -119,14 +120,6 @@ body {
 .priorities-text {
   font-size: 16px;
   line-height: 24px;
-}
-
-.priorities-boxs {
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 
 .priorities-box-1 {
