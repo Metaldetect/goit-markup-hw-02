@@ -26,12 +26,15 @@ body {
 }
 p {
   font-size: 16px;
-  line-height: 0.7;
+  line-height: 1;
 }
 ul {
   list-style-type: none;
 }
-.logo, .nav-link, .contact, .footer-logo {
+.logo,
+.nav-link,
+.contact,
+.footer-logo {
   text-decoration: none;
 }
 
@@ -53,14 +56,14 @@ ul {
 .web {
   color: var(--botton-text-color);
   font-size: 18px;
-  line-height: 0.7;
+  line-height: 1;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
 .studio {
   color: var(--title-text-color);
   font-size: 18px;
-  line-height: 0.7;
+  line-height: 1;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
@@ -71,7 +74,7 @@ ul {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.3;
   color: var(--title-text-color);
 }
 .nav-link:hover,
@@ -82,7 +85,7 @@ ul {
 .address {
   font-style: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--paragraph-text-color);
 }
 .contact {
@@ -122,13 +125,13 @@ ul {
 .button-text {
   color: var(--bgc-white-color);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1;
 }
 /* секція категорій */
 
 .priorities h3 {
   font-size: 20px;
-  line-height: 0.8;
+  line-height: 1;
   color: var(--title-text-color);
 }
 
@@ -139,35 +142,31 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1;
-  left: 559px;
-  top: 1016px;
   color: var(--title-text-color);
 }
 
 /* team */
 
 .team {
-  left: 639px;
-  top: 1668px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1;
-  font-weight: 700;
   color: var(--title-text-color);
 }
 .team-box h3 {
   font-size: 20px;
   line-height: 1;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 /* PORTFOLIO */
 
 .all-btn {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--botton-text-color);
+  background: var(--studio-white-color);
   cursor: pointer;
-  background: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
 }
@@ -190,13 +189,13 @@ ul {
 }
 .footer-text {
   font-size: 16px;
-  line-height: 0.7;
+  line-height: 1;
   color: #e7e9fc;
 }
 .footer-logo-studio {
   color: var(--studio-white-color);
   font-size: 18px;
-  line-height: 0.7;
+  line-height: 1;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
